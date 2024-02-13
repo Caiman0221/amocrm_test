@@ -1,0 +1,37 @@
+body {
+    width: 100vb;
+    height: 100vh;
+}
+
+#formsub {
+    position: fixed;
+    font-size: small;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px 25px;
+    border-radius: 15px;
+    box-shadow: 5px 10px 15px gray;
+}
+
+#formsub div {
+    margin: 10px 0;
+}
+
+#formsub input {
+    padding: 4px 10px ;
+    border-radius: 15px;
+    border: 0.2px solid gray;
+}
+
+#formsub input[type="submit"] {
+    padding: 8px 20px ;
+    background-color: #0000FF60;
+    border: none;
+}
+
+#bad_result {
+    display: none;
+    color: red;
+}

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "amocrm/amocrm-api-library": "^1.5",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
